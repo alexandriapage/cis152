@@ -213,6 +213,7 @@ display: flex;
   border-radius: 30px;
   padding: 20px;
   margin-top: 25px;
+	margin-bottom: 25px;
 }
 .room-card h2 {
   color: #330000;
