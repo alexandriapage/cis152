@@ -1,30 +1,23 @@
-/* GLOBAL RESET */
+
 * {
     box-sizing: border-box;
 }
-
-/* PAGE */
 body {
     font-family: Verdana, Arial, sans-serif;
     background-color: #330000;
     margin: 0;
 }
-
-/* WRAPPER */
 #wrapper {  
     background-color: #F4E8BC; 
     width: 90%;
     margin: auto;
     color: #330000;
 }
-
-/* HEADER */
 header {
     background-image: url(images/sedona.jpg);
     background-repeat: no-repeat;  	
     background-size: cover; 
 }
-/* HERO */
 .hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/sedona.jpg');
   background-size: cover;
@@ -33,21 +26,18 @@ header {
   padding: 120px 20px 80px 20px;
   color: #F4E8BC;
 }
-
 .hero h1 {
   font-size: 4rem;
   margin-bottom: 20px;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
   color: #F4E8BC;
 }
-
 .hero p {
   font-size: 1.6rem;
   font-weight: bold;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
   margin-bottom: 30px;
 }
-
 .hero .btn {
   display: inline-block;
   background-color: #330000;
@@ -58,19 +48,16 @@ header {
   font-weight: bold;
   transition: all 0.3s ease;
 }
-
 .hero .btn:hover {
   background-color: #996600;
 }
-
 aside img {
   width: 100%;
   border-radius: 8px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
   margin-bottom: 15px;
 }
-
-/* CARDS */
+/* please work */
 .feature-card {
 display: flex;
 flex-direction: column;
@@ -83,22 +70,16 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 text-align: center;
 align-items: center;
 }
-
-
 .feature-card:hover {
   transform: translateY(-5px);
   box-shadow: 4px 6px 12px rgba(0,0,0,0.2);
 }
-
-
 .feature-card i {
    font-size: 40px;
   color: #003300;
   margin-bottom: 10px;
   display: block;
 }
-
-
 aside img {
   width: 100%;
   border-radius: 8px;
@@ -106,13 +87,10 @@ aside img {
   margin-bottom: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-
 aside img:hover {
   transform: scale(1.03);
   box-shadow: 4px 6px 12px rgba(0,0,0,0.3);
 }
-
 h1 {
     text-align: center;
     font-size: 300%;
@@ -120,19 +98,15 @@ h1 {
     text-shadow: 3px 3px 3px #F4E8BC;
     margin-top: 0;
 }
-
 h1, h2 {
     color: #003300;
 }
-
-/* NAVIGATION */
 nav {
-    background-color: #F4E8BC;   /* light background for nav */
+    background-color: #F4E8BC;   /* use this color for headers maybe */
     padding: 0.5em 1em;
     border-radius: 8px;
     text-align: center;
 }
-
 nav ul {
     display: flex;
     justify-content: center;
@@ -141,11 +115,9 @@ nav ul {
     padding-left: 0;
     margin: 0;
 }
-
 nav li {
     list-style: none;
 }
-
 nav a {
     color: #330000;
     text-decoration: none;
@@ -154,48 +126,37 @@ nav a {
     border-radius: 6px;
     transition: all 0.3s ease;
 }
-
 nav a:link {
     color: #330000;
 }
-
 nav a:visited {
     color: #003300;
 }
-
 nav a:hover {
     background-color: #996600;
     color: #fff;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
-
-/* MAIN LAYOUT */
 #demo {
     display: flex;
     flex-direction: row;
 }
-
 nav {
     flex: 1;
 }
-
 main {
     flex: 7;
     padding: 0 1em;
 }
-
 aside {
     flex: 2;
     padding: 0 1em;
 }
-
-/* IMAGES */
 img {
     width: 100%;
     height: auto;
 }
-
-/* CONTACT */
+/* contact image and portion */
 .contact-hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/contact-banner.jpg'); 
   background-size: cover;
@@ -204,17 +165,15 @@ img {
   text-align: center;
   color: #F4E8BC; 
   padding: 120px 20px 80px 20px;
-  text-shadow: 2px 2px 6px #330000; 
+  text-shadow: 2px 2px 6px #330000; /* this color for text shadow for cream color text */
   border-radius: 0; 
 }
-
 .contact-hero p {
   font-size: 1.6rem;
   font-weight: bold;
   margin-top: 15px;
-  text-shadow: 2px 2px 6px #330000;
+  text-shadow: 2px 2px 6px #330000; 
 }
-
 .contact-section {
     display: flex;
     flex-direction: column;
@@ -224,27 +183,22 @@ img {
     max-width: 500px;
     margin: auto;
 }
-
 .contact-hero h1 {
-  color: #F4E8BC;  /* light cream */
-  text-shadow: 2px 2px 6px #330000; /* shadow for readability */
-  font-size: 3.5rem; /* adjust size as needed */
+  color: #F4E8BC; 
+  text-shadow: 2px 2px 6px #330000; 
+  font-size: 3.5rem; 
   margin-bottom: 15px;
 }
-
 .contact-section h2 {
     margin-bottom: 10px;
 }
-
 .contact-section p {
     max-width: 500px;
     line-height: 1.5;
 }
-
 .contact-box {
     margin-bottom: 20px;
 }
-
 .contact-box i {
     font-size: 40px;
     margin-bottom: 10px;
@@ -254,12 +208,9 @@ img {
     border-radius: 8px;
     width: 100%;
 }
-
 .contact-box a:hover {
     color: #996600;
 }
-
-/* FOOTER */
 footer {
     text-align: center;
     font-size: 80%;
@@ -267,36 +218,21 @@ footer {
     color: #003300;
     padding: 2.5%;
 }
-
-/* TABLET STYLES */
-@media only screen and (max-width: 1024px) {
-
-#wrapper {
-    width: auto;
-    margin: 0;
-}
-
 h1 {
     font-size: 200%;
 }
-
 #demo {
     flex-direction: column;
 }
-
 nav ul {
     display: flex;
     justify-content: center;
 }
-
 nav li {
     padding: 0 0.5em;
     font-size: 1.2em;
 }
-
-}
-
-/* ROOMS */
+/* rooms image and portion */
 .rooms-hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/rooms-hero.jpg');
   background-size: cover;
@@ -306,21 +242,17 @@ nav li {
   padding: 120px 20px 80px 20px;
   text-shadow: 2px 2px 6px #330000;
 }
-
 .rooms-hero h1 {
   font-size: 3.5rem;
   margin-bottom: 15px;
   color: #F4E8BC;
   text-shadow: 2px 2px 6px #330000;
 }
-
 .rooms-hero p {
   font-size: 1.6rem;
   font-weight: bold;
   margin-top: 0;
 }
-
-/* ROOM CARDS */
 .rooms-section {
   display: flex;
   flex-wrap: wrap;
@@ -328,7 +260,6 @@ nav li {
   justify-content: center;
   padding: 30px 10px;
 }
-
 .room-card {
   background-color: #fff8e1;
   border-radius: 8px;
@@ -338,27 +269,22 @@ nav li {
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .room-card:hover {
   transform: translateY(-5px);
   box-shadow: 4px 6px 12px rgba(0,0,0,0.2);
 }
-
 .room-card img {
   width: 100%;
   height: auto;
 }
-
 .room-card h2 {
   margin: 15px 0 10px 0;
   color: #003300;
 }
-
 .room-card p {
   padding: 0 10px 15px 10px;
   font-size: 0.95rem;
 }
-
 .room-card .btn {
   display: inline-block;
   background-color: #330000;
@@ -370,12 +296,10 @@ nav li {
   margin-bottom: 15px;
   transition: all 0.3s ease;
 }
-
 .room-card .btn:hover {
   background-color: #996600;
 }
-
-/* SPECIALS */
+/* specials packages image and portion */
 .specials-hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/specials-hero.jpg');
   background-size: cover;
@@ -385,22 +309,17 @@ nav li {
   padding: 120px 20px 80px 20px;
   text-shadow: 2px 2px 6px #330000;
 }
-
 .specials-hero h1 {
-  font-size: 3.5rem;
-  margin-bottom: 15px;
-  color: #F4E8BC;
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    color: #F4E8BC;
     text-shadow: 2px 2px 6px #330000;
-
 }
-
 .specials-hero p {
   font-size: 1.6rem;
   font-weight: bold;
   margin-top: 0;
 }
-
-/* SPECIALS CARDS */
 .specials-section {
   display: flex;
   flex-wrap: wrap;
@@ -408,7 +327,6 @@ nav li {
   justify-content: center;
   padding: 30px 10px;
 }
-
 .special-card {
   background-color: #fff8e1;
   border-radius: 8px;
@@ -418,27 +336,22 @@ nav li {
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .special-card:hover {
   transform: translateY(-5px);
   box-shadow: 4px 6px 12px rgba(0,0,0,0.2);
 }
-
 .special-card img {
   width: 100%;
   height: auto;
 }
-
 .special-card h2 {
   margin: 15px 0 10px 0;
   color: #003300;
 }
-
 .special-card p {
   padding: 0 10px 15px 10px;
   font-size: 0.95rem;
 }
-
 .special-card .btn {
   display: inline-block;
   background-color: #330000;
@@ -450,37 +363,34 @@ nav li {
   margin-bottom: 15px;
   transition: all 0.3s ease;
 }
-
 .special-card .btn:hover {
   background-color: #996600;
 }
-
-/* SPECIALS MOBILE */
+/* please work media portion */
 @media only screen and (max-width: 768px) {
   .specials-section {
     flex-direction: column;
     align-items: center;
   }
 }
-
-/* ROOMS MOBILE */
 @media only screen and (max-width: 768px) {
   .rooms-section {
     flex-direction: column;
     align-items: center;
   }
 }
+@media only screen and (max-width: 1024px) {
 
-/* MOBILE  */
+#wrapper {
+    width: auto;
+    margin: 0;
+}
 @media only screen and (max-width: 768px) {
-
 nav {
     order: 1;
 }
-
 nav ul {
     flex-wrap: wrap;
     gap: 10px;
 }
-
 }
