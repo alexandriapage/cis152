@@ -1,0 +1,426 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to bottom, #fff, #90c7e3);
+  border: 1px solid #000032;
+  box-shadow: 3px 3px 3px #333; /* bxsd */
+  color: #666; /* c#666 */
+  font-family: "Quicksand", sans-serif;
+}
+body, html {
+  overflow-x: hidden;
+}
+header, h1, #wrapper{ 
+  margin-top: 0; 
+}
+#wrapper {  
+  width: 95%;
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0 1em;
+  background-color: #fff; 
+
+  color: #000032;
+} 
+h1 { 
+  color:#fff; 
+  font-family: "Bungee", sans-serif;
+}
+header { 
+  background-image: url(images/trailshero.png);
+  background-repeat: no-repeat;  	
+	background-size: cover; 
+  background-position: center;
+  box-shadow: inset 0 0 0 200px rgba(0,0,0, 0.2); 
+}
+header h1, header p {
+  font-family: "Bungee", sans-serif;
+  margin-top: 30px;
+}
+.hero {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 1px #000032;
+}
+header, .hero, .about-hero, .contact-hero, .rooms-hero, .activities-hero, .reservations-hero {
+  width: 100%;
+  padding: 2em 1em;
+  background-size: cover;
+  background-position: center;
+}
+/* general button stuff */
+.btn {
+background-color: #000032;
+border: #90c7e3;
+color: #fff;
+padding: 10px 20px;
+margin: 4px 2px;
+display: inline-block;
+border-radius: 20px;
+text-shadow: none;
+}
+.btn:hover {
+color: #000032;
+background-color: #90c7e3;
+border-radius: 20px;
+}
+h1 { 
+  text-align: center;
+  font-size: 300%;
+	padding: 5% 0;
+
+}
+
+/* stuff */
+main {  
+  padding: 1em; 
+}
+.home-section {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;  
+  max-width: 100%;
+}
+img { 
+  width: 100%; 
+  height: auto;
+}
+/* FOOTER */
+footer { 
+  text-align: center;
+  font-size: 80%;
+  font-style: italic;
+  color: #fff;
+  background-color: #000032;
+  padding: 15px 0;
+}
+footer a {
+  color: #90c7e3;
+}
+/* #demo/nav section */
+#demo {
+  background-color: #000032;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* pretty cards */
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #90c7e3;
+  border-radius: 30px;
+  text-align: center;
+  align-items: center;
+  padding: 10px 25px;
+  margin: 25px 50px;
+  box-shadow: 0 4px 0px rgba(0, 0, 0, 0.5);
+}
+.feature-card i {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px 0 0 0;
+}
+.feature-card h2 {
+  color: #000032;
+}
+.feature-card p {
+  text-align: center;
+  width: 75%;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #90c7e3;
+  border-radius: 30px;
+  text-align: center;
+  align-items: center;
+  padding: 10px 25px;
+  margin: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-card, .video {
+  width: 100%;
+  max-width: 750px;
+  margin: 0.5em auto;
+}
+/* ABOUT */
+.about-hero {
+  background-image: url(images/about-hero.png);
+  background-repeat: no-repeat;  	
+	background-size: cover; 
+  box-shadow: inset 0 0 0 200px rgba(0,0,0, 0.2); 
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 1px #000032;
+  padding-bottom: 50px;
+}
+.about-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;  
+  align-items: center;      
+  text-align: center;
+  gap: 1em;
+  max-width: 800px;
+  margin: auto;
+  background-color: #90c7e3;
+  border-radius: 30px;
+  padding: 0px;
+}
+.about-section img {
+  grid-column: span 2; 
+  width: 100%;         
+  height: auto;
+  border-radius: 10px;
+}
+.about-section h2 {
+  grid-column: span 2;
+}
+.about-section h2, .about-section p {
+  color: #000032;
+}
+.about-section p {
+  padding-bottom: 20px;
+  margin: 0px 20px;
+}
+.about-section i {
+grid-column: span 2;
+justify-self: center;
+padding: 20px;
+}
+/* contact stuff */
+.contact-section {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;      
+  text-align: center;
+  gap: 30px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #90c7e3;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.contact-hero {
+  background-image: url(images/contact-banner.jpg);
+  background-repeat: no-repeat;  	
+	background-size: cover; 
+  box-shadow: inset 0 0 0 200px rgba(0,0,0, 0.2); 
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 1px #000032;
+  padding-bottom: 50px;
+}
+.contact-box i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.contact-section h2 {
+  margin-bottom: 10px;
+  color: #000032;
+}
+
+.contact-section p {
+  max-width: 500px;
+}
+
+/* rooms stuff */
+.rooms-hero {
+  background-image: url(images/rooms-hero.jpg);
+  background-repeat: no-repeat;  	
+	background-size: cover; 
+  background-position: center;
+  box-shadow: inset 0 0 0 200px rgba(0,0,0, 0.2); 
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 1px #000032;
+  padding-bottom: 25px;
+}
+.rooms-section {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;      
+  text-align: center;
+  gap: 30px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #90c7e3;
+  border-radius: 30px;
+  padding: 1em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.room-card h2 {
+  color: #000032;
+}
+
+/* package page  */
+.activities-hero {
+  background-image: url(images/yurt-interior.jpg);
+  background-repeat: no-repeat;  	
+	background-size: cover; 
+  background-position: center;
+  box-shadow: inset 0 0 0 200px rgba(0,0,0, 0.2); 
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 1px #000032;
+  padding-bottom: 50px;
+}
+.activities-section {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;      
+  text-align: center;
+  gap: 30px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #90c7e3;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.activities-card h2 {
+color: #000032;
+}
+
+/* RESERVATION PAGE */
+.reservations-hero {
+  background-image: url(images/trailshero.png);
+  background-repeat: no-repeat;  	
+	background-size: cover; 
+  background-position: center;
+  box-shadow: inset 0 0 0 200px rgba(0,0,0, 0.2); 
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 1px #000032;
+  padding-bottom: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 32em;
+  margin: 0 auto;
+  padding: 2em 1em;
+  background-color: #f8fafc;
+  border-radius: 0.5em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+label {
+  font-weight: 600;
+  margin-bottom: 0.25em;
+  color: #000032;
+}
+input, textarea {
+  margin-bottom: 0;
+  padding: 0.5em;
+  border: 1px solid #b0bec5;
+  border-radius: 0.25em;
+  font-size: 1em;
+  background: #fff;
+  transition: border-color 0.2s ease-in-out;
+}
+input:focus, textarea:focus {
+  border-color: #000032;
+  outline: none;
+}
+input[type="submit"] {
+  background-color: #000032;
+  color: #fff;
+  border: none;
+  border-radius: 0.25em;
+  padding: 0.75em 2em;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+input[type="submit"]:hover, input[type="submit"]:focus {
+  background-color: #115293;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2em 0;
+  gap: 0.5em;
+}
+.center > h2,
+.center > h3,
+.center > p {
+margin: 0;
+}
+.center h2 {
+  color: #000032;
+}
+.center p {
+  text-align: center;
+  width: 75%;
+}
+/* Gallery Grid layout */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 1em;                              
+  max-width: 900px;                       
+  margin: 2em auto;                       
+}
+
+.gallery-image img {
+  width: 100%;
+  height: 200px;       
+  object-fit: cover;   
+  border-radius: 0.5em;
+  transition: transform 0.3s ease;
+}
+.gallery-image:hover img {
+  transform: scale(1.05); 
+}
+
+/* media section */
+@media only screen and (max-width: 768px) {
+  #wrapper {
+    width: 95%;       
+    margin: 0 auto;   
+  }
+
+  #demo {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;    
+    gap: 20px;               
+  }
+
+  .feature-card, .video {
+    max-width: 350px;         
+    width: 100%;              
+    margin: 20px auto;           
+  }
+
+  .hero {
+    width: 100%;              
+    padding: 1em;             
+    text-align: center;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr; 
+    gap: 0.8em;
+  }
+}

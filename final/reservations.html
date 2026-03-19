@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Reserve With Us | Pacific Trails Resort</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Reserve your stay with Pacific Trails today and secure your perfect getaway, with cozy accommodations, outdoor adventures, and relaxing yoga experiences waiting for you.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrapper">
+    <header class="reservations-hero">
+       <h1>Reserve With Us</h1>
+    <p>Reserve your spot now!</p>
+  </header>
+
+     <div id="demo">
+      <a href="index.html" class="btn">Home</a>
+        <a href="about.html" class="btn">About Us</a>
+        <a href="yurts.html" class="btn">Lodgings</a>
+        <a href="activities.html" class="btn">Activities</a>
+        <a href="reservations.html" class="btn">Reservations</a>
+  </div>
+    <!-- main>h2{}+p{} -->
+    <main>
+        <div class="center">
+        <h2>Reservations at Pacific Trails</h2>
+       <h3>Contact Us Today!</h3>
+       <p>Don't wait to experience the getaway you deserve—reserve your stay with us today. From relaxing accommodations to unforgettable outdoor adventures, your perfect escape is just a booking away!</p>
+       <p>Required fields are marked with an asterisk*.</p>
+        </div>
+       <form method="post" action="https://webdevbasics.net/scripts/pacific.php" autocomplete="on">
+
+       <label for="myFName">*First Name:</label>
+       <input type="text" id="myLName" name="myLName" required autocomplete="given-name">
+
+        <label for="myLName">*Last Name:</label>
+        <input type="text" id="myFName" name="myFName" required autocomplete="family-name">
+
+        <label for="myEmail">*E-mail:</label>
+        <input type="email" id="myEmail" name="myEmail" required autocomplete="email">
+
+        <label for="myPhone">*Phone:</label>
+        <input type="tel" id="myPhone" name="myPhone" maxlength="12" autocomplete="tel">
+
+        <label for="myArrival">*Arrival Date:</label>
+        <input type="date" id="myArrival" name="myArrival" autocomplete="off">
+
+        <label for="myNights">*Nights:</label>
+        <input type="number" id="myNights" name="myNights" min="1" max="14" autocomplete="off">
+
+        <label for="myComments">Comments:</label>
+        <textarea id="myComments" name="myComments" rows="5" cols="30" autocomplete="off"></textarea>
+
+        <input type="submit" value="Submit">
+        </form>
+
+ <div class="contact-section">
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+    <i class="fas fa-phone"></i>
+    <h3>Pacific Trails Resort</h3>
+
+    <p><strong>Front Desk</strong></p>
+    <a href="tel:16196666666">619-666-6666</a>
+
+    <p><strong>Reservations</strong></p>
+    <a href="tel:16198080008">619-808-0008</a><br>
+    <a href="mailto:bookpacifictrails@ptr.com">bookpacifictrails@ptr.com</a>
+    </div>
+
+    <div class="contact-box">
+    <i class="fas fa-pray"></i>
+    <h3>Path of Light Yoga</h3>
+    <a href="tel:6192552255">619-255-2255</a>
+    </div>
+
+    <div class="contact-box">
+    <i class="fas fa-hiking"></i>
+    <h3>Tour Booking</h3>
+    <a href="tel:6195999995">619-599-9995</a><br>
+    <a href="mailto:pacifictrailspackages@ptr.com">
+    pacifictrailspackages@ptr.com</a>
+  </div>
+</div>
+        <!-- <address> -->
+    <address class="center">
+        <span class="resort">Pacific Trails Resort</span> 
+        12010 Pacific Trails Road <br>
+        Zephyr, CA 95555 <br>
+        <a href="tel:888-555-1212">888-555-1212</a><br>
+    </address>
+    </main>
+</div> <!-- End of Wrapper -->
+<footer>
+        <p>Copyright &copy; 2026 Pacific Trails Resort | <a href="ap0676254@swccd.edu">Alexandria Page</a></p> 
+    </footer>
+</body>
+</html>
